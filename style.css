@@ -11,22 +11,24 @@
 header{
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    padding: 40px 10px;
-    z-index:1000;
+    padding: 40px;
+    z-index:1;
     display: flex;
     justify-content: space-around;
     align-items: center;
     transition: .5s;
 }
+.navbar img{
+    width: 8rem;
+}
 .navbar.sticky{
-    background:#fff;
+    background:#fffdd0;
      padding: 20px 1px;
      padding: 20px 10px;
  }
 .navbar .logo{
-    color: #fff;
+    color: #fffdd0;
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
@@ -37,14 +39,14 @@ header{
     opacity: .4;
 }
 .navbar .logo span{
-    color: darkviolet;
+    color: #00008b;
     font-size: 25px;
 }
 .navbar .logo span:hover{
     opacity: .4;
 }
 .navbar.sticky .logo{
-  color:darkviolet;  
+  color:#00008b;  
 }
 header ul{
     position: relative;
@@ -61,29 +63,29 @@ header ul li a{
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color:#fff;
+    color:#fffdd0;
     text-decoration: none;
-    background: darkviolet;
+    background: #00008b;
     padding: 10px;
     border-radius: 5px;
 }
 header ul li a:hover{
-    color: darkviolet;
-    background: #fff;
+    color:#00008b;
+    background:#fffdd0;
     padding: 10px;
     border-radius: 5px;
 }
 header.sticky ul li a{
-    color: darkviolet;
-    background-color: #fff;
+    color:#00008b;
+    background-color: #fffdd0;
 }
 header.sticky ul li a:hover{
-    background-color: darkviolet;
-    color: #fff;
+    background-color:#00008b;
+    color: #fffdd0;
 
 } .navbar .apply{
-    color:darkviolet;
-    background-color: #fff;
+    color:#00008b;
+    background-color: #fffdd0;
     border-radius: 5px;
     font-weight: 800;
     padding: 10px;
@@ -91,20 +93,20 @@ header.sticky ul li a:hover{
 
 }
 .navbar .apply:hover{
-    color:#fff;
-    background-color: darkviolet;
+    color:#fffdd0;
+    background-color: #00008b;
 
 }
 .navbar.sticky .apply{
-    color:#fff;
-    background-color:darkviolet;
+    color:#fffdd0;
+    background-color:#00008b;
     
     padding: 10px;
     border-radius: 5px;
 }
 .navbar.sticky .apply:hover{
-    color:darkviolet;
-    background-color:#fff;
+    color:#00008b;
+    background-color:#fffdd0;
 }
 
     /* landing page */
@@ -120,14 +122,14 @@ header.sticky ul li a:hover{
 
  .landingpage i{
      font-size: 1.8rem;
-     color: blueviolet;
+     color: #00008b;
  }
  .landingpage i{
      margin: 0.8rem;
  }
  .landingpage i span{
-     font-size: 0.9rem;
-     color: #fff;
+     font-size: 1.2rem;
+     color: #fffdd0;
      
  }
  .landingpage div{
@@ -136,12 +138,12 @@ header.sticky ul li a:hover{
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  .landingpage div p{
-     color: blueviolet;
+     color: #00008b;
      font-size: 1.5rem;
      font-weight: 800;
  }
  .landingpage div h3{
-     color: #fff;
+     color: #fffdd0;
      font: 3rem;
  }
 .fourboxes{
@@ -154,8 +156,8 @@ header.sticky ul li a:hover{
     height: 25rem;
     background-color: #001a21;
     margin: 1rem 3rem;
-    background: darkviolet;
-    color:#fff;
+    background: #00008b;
+    color:#fffdd0;
     padding: 13px;
     border-radius: 13px;
 }
@@ -182,7 +184,7 @@ header.sticky ul li a:hover{
 .thetalk div{
     flex: 1;
     text-align: center;
-    color: blueviolet;
+    color:#00008b;
     padding: 3rem;
    
 
@@ -201,7 +203,7 @@ header.sticky ul li a:hover{
 
 /*----Footer------------*/
 footer{
-    background: darkviolet;
+    background:#00008b;
     padding: 50px 0;
 }
 .footer-container{
@@ -211,7 +213,7 @@ footer{
 }
 .footer-social a{
     
-    color: #fff;
+    color: #fffdd0;
     margin-right: 26px;
     font-size: 30px;
     text-decoration: .3s linear;
@@ -229,10 +231,10 @@ footer{
 }
 .right-col h1{
     font-size: 26px;
-    color: #fff;
+    color: #fffdd0;
 }
 .right-col p{
-    color: #fff;
+    color:#fffdd0;
 }
 .left-col{
     margin-top: 3rem;
@@ -242,8 +244,8 @@ footer{
     flex: 1;
     padding: 10px 10px;
     font-size: 16px;
-    color:darkviolet;
-    background:#fff;
+    color:#00008b;
+    background:#fffdd0;
      border:none;
     font-weight: 700;
     border-radius: 30px;
@@ -256,8 +258,8 @@ footer{
  .news-btn{
     padding: 10px 40px;
     font-size: 16px;
-    color: darkviolet;
-    background: #fff;
+    color: #00008b;
+    background:#fffdd0;
      border:none;
     font-weight: 700;
     border-radius: 30px;
@@ -270,8 +272,8 @@ footer{
     opacity: .7;
 }
 .copywrite{
-    background:#fff;
-    color: darkviolet;
+    background:#fffdd0;
+    color:#00008b;
     text-align: center;
     padding: 10px;
 }
@@ -385,7 +387,7 @@ footer{
         text-align: center;
         width: 100%;
         height: 100vh;
-        background: darkviolet;
+        background: #00008b;
         transition: 0.5;
         z-index: 999;
         border-top: 1px solid rgba(0,0,0,0.2);

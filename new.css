@@ -1,0 +1,118 @@
+/* navbar */
+.navbar-light .navbar-nav .nav-link{
+    color: #6666ff;
+    transition: 1s;
+} 
+.navbar-light .navbar-nav .nav-link:hover{
+    font-size: 17px;
+}
+.nav-option{
+    margin: 0 1rem;
+    font-weight: bolder;
+}
+/* landing page */
+#landing-page{
+    
+        height: 85vh;
+        background:#6666ff url(./j&j.jpg) no-repeat
+        center center/cover;
+}
+
+.welcome-msg {
+    padding: 5% 0 0 5%;
+}
+.welcome-msg p{
+    color: #6666ff;
+    font-size: larger;
+    
+}
+.welcome-msg h3{
+    color: #6666ff;
+}
+.pre-welcome-msg{
+    color: black;
+    padding: 2% 0 0 5%;
+}
+.pre-welcome-msg div{
+    margin-bottom: 1%;
+}
+.pre-welcome-msg div i{
+    font-size: 2.5rem;
+    color:navy;
+}
+.pre-welcome-msg div span{
+    margin-left: 1%;
+    font-size: normal;
+}
+.topbtn{
+   background: navy ;
+   border-color: navy;
+   margin: 0.5rem 2rem 0 0;
+   color:#cef9ce;
+   padding: 10px 20px;
+   font-weight: 700;
+   box-shadow: 0px 10px 20px 0px rgba(white);
+}
+.topbtn:hover{
+    color: #6666ff;
+}
+
+/* three boxes */
+
+#threebox{
+    background-color: #6666ff;
+    padding: 4%;
+}
+.container{
+    background-color: navy;
+    color: #cef9ce;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+}
+.row div i{
+    font-size: 5rem;
+}
+/* abt us intro */
+#abtusintro{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f9fa;
+    opacity: .8;
+}
+.mainabt{
+    display: flex;
+    /* height: 100vh; */
+}
+.mainabt div{
+    flex: 1;
+}
+.img img{
+    width:50%;
+    
+
+}
+/* grid section */
+
+.gridsection{
+    display: flex;
+    
+}
+.gridsection div{
+    flex: 1;
+}
+.gridsection .gridphoto{
+    flex: 2;
+    background-color: black;
+}
+  
+  
+  
