@@ -15,21 +15,21 @@
     height: 100vh; 
  }
   .one{
- background-image: url(./j&j.jpg);
+ background-image: url(../j&j.jpg);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center;
  background-size: cover; 
  }
  .two{
-     background-image: url(./carousel.jpg);
+     background-image: url(../carousel.jpg);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center;
  background-size: cover;
  }
  .three{
-     background-image: url(./carosel\ \(2\).jpg);
+     background-image: url(../carosel\ \(2\).jpg);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center;
@@ -141,7 +141,6 @@
     font-weight: bold;
 }
 /* grid section */
-}
 .gridsection{
     display: flex;
     
@@ -176,6 +175,31 @@
      background-color:navy;
      padding: 1rem;
      border-radius: 8px;    
+ }
+
+ /* form */
+
+ form{
+     padding: 0.5rem 1.5rem;
+     text-align: center;
+    
+ }
+ form h4{
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: navy;
+ }
+ .formpg div input{
+     padding: 1.5rem;
+     margin: 10px;
+ }
+ #formmsg{
+     padding-bottom: 3rem;
+ }
+ .form-btn{
+     margin: auto;
+     color: white;
+     background: navy;
  }
 /* carousel */
 #kk{
@@ -245,6 +269,9 @@ footer{
     }
     .welcome-msg {
         padding: 20% 0 0 5%;       
+}
+.gridphoto{
+    grid-template-columns:33% 26% 33%;
 }
 footer{
     text-align: center;

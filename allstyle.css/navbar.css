@@ -1,0 +1,81 @@
+/* navbar */
+.navbar-light .navbar-nav .nav-link{
+    color: #6666ff;
+    transition: 1s;
+} 
+.navbar-light .navbar-nav .nav-link:hover{
+    font-size: 17px;
+}
+.nav-option{
+    margin: 0 1rem;
+    font-weight: bolder;
+}
+
+/* footer */
+/* footer */
+footer{
+    height: 8%;
+    background-color: #f8f9fa;
+}
+.footer-social a i{
+    font-size: 2rem;
+    text-decoration: .3s linear;
+    color: navy;
+    margin: 1.8rem 0.3rem;
+}
+.footer-social a:hover{
+   opacity: .3;
+}
+.footer-social a h5{
+    color:black;
+    margin: 1.5rem 0;
+    font-weight: bold;
+}
+.footer-social a h5:hover{
+    opacity: .3;
+}
+.right-col h1{
+    font-size: 26px;
+    padding: 1rem 0;
+}
+
+.news-bx{
+
+    padding: 20px 40px;
+    font-size: 16px;
+    color:white;
+    background: navy;
+     border:none;
+    font-weight: 700;
+    border-radius: 20px;
+    width: 70%;
+    margin: 1rem 0;
+}
+.news-bx:hover{
+   opacity: .7;
+}
+.news-btn{
+    padding: 20px 40px;
+    font-size: 16px;
+    color: white;
+    background: navy;
+     border:none;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+.news-btn:hover{
+    opacity: .6;
+}
+@media screen and (max-width:650px){
+    footer{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1118px){
+    .news-btn{
+        margin-bottom: 1.5rem;
+    }
+}
