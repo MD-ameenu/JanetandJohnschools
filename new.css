@@ -1,118 +1,578 @@
-/* navbar */
-.navbar-light .navbar-nav .nav-link{
-    color: #6666ff;
-    transition: 1s;
-} 
-.navbar-light .navbar-nav .nav-link:hover{
-    font-size: 17px;
-}
-.nav-option{
-    margin: 0 1rem;
-    font-weight: bolder;
-}
-/* landing page */
-#landing-page{
-    
-        height: 85vh;
-        background:#6666ff url(./j&j.jpg) no-repeat
-        center center/cover;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
-.welcome-msg {
-    padding: 5% 0 0 5%;
-}
-.welcome-msg p{
-    color: #6666ff;
-    font-size: larger;
-    
-}
-.welcome-msg h3{
-    color: #6666ff;
-}
-.pre-welcome-msg{
-    color: black;
-    padding: 2% 0 0 5%;
-}
-.pre-welcome-msg div{
-    margin-bottom: 1%;
-}
-.pre-welcome-msg div i{
-    font-size: 2.5rem;
-    color:navy;
-}
-.pre-welcome-msg div span{
-    margin-left: 1%;
-    font-size: normal;
-}
-.topbtn{
-   background: navy ;
-   border-color: navy;
-   margin: 0.5rem 2rem 0 0;
-   color:#cef9ce;
-   padding: 10px 20px;
-   font-weight: 700;
-   box-shadow: 0px 10px 20px 0px rgba(white);
-}
-.topbtn:hover{
-    color: #6666ff;
-}
-
-/* three boxes */
-
-#threebox{
-    background-color: #6666ff;
-    padding: 4%;
-}
-.container{
-    background-color: navy;
-    color: #cef9ce;
-    text-align: center;
-    border-radius: 10px;
-    padding: 2%;
-}
-.row div i{
-    font-size: 5rem;
-}
-/* abt us intro */
-#abtusintro{
-    background-image: url(./background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    /* position: relative; */
-}
-.overlay{
-    height: 100%;
+header{
+    position: fixed;
+    top: 0;
     width: 100%;
-    background-color: #f8f9fa;
-    opacity: .8;
-}
-.mainabt{
+    padding: 40px;
+    z-index:1;
     display: flex;
-    /* height: 100vh; */
+    justify-content: space-around;
+    align-items: center;
+    transition: .5s;
 }
-.mainabt div{
-    flex: 1;
+.navbar img{
+    width: 8rem;
 }
-.img img{
-    width:50%;
-    
+.navbar.sticky{
+    background:#fffdd0;
+     padding: 20px 1px;
+     padding: 20px 10px;
+ }
+.navbar .logo{
+    color: #fffdd0;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar .logo:hover{
+    opacity: .4;
+}
+.navbar .logo span{
+    color: #00008b;
+    font-size: 25px;
+}
+.navbar .logo span:hover{
+    opacity: .4;
+}
+.navbar.sticky .logo{
+  color:#00008b;  
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+.navbar.sticky .logo:{
+    opacity: .4;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color:#fffdd0;
+    text-decoration: none;
+    background: #00008b;
+    padding: 10px;
+    border-radius: 5px;
+}
+header ul li a:hover{
+    color:#00008b;
+    background:#fffdd0;
+    padding: 10px;
+    border-radius: 5px;
+}
+header.sticky ul li a{
+    color:#00008b;
+    background-color: #fffdd0;
+}
+header.sticky ul li a:hover{
+    background-color:#00008b;
+    color: #fffdd0;
+
+} .navbar .apply{
+    color:#00008b;
+    background-color: #fffdd0;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 10px;
+    text-decoration: none;
 
 }
-/* grid section */
+.navbar .apply:hover{
+    color:#fffdd0;
+    background-color: #00008b;
 
-.gridsection{
+}
+.navbar.sticky .apply{
+    color:#fffdd0;
+    background-color:#00008b;
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar.sticky .apply:hover{
+    color:#00008b;
+    background-color:#fffdd0;
+}
+
+    /* landing page */
+    .landingpage {
+        position: relative;
+        min-height: 100vh;
+        background: url(./learning-education-books.jpg) no-repeat
+        center center/cover;
+         padding-top:8.5rem;
+         padding-left: 38rem; 
+            
+}
+
+ .landingpage i{
+     font-size: 1.8rem;
+     color: #00008b;
+ }
+ .landingpage i{
+     margin: 0.8rem;
+ }
+ .landingpage i span{
+     font-size: 1.2rem;
+     color: #fffdd0;
+     
+ }
+ .landingpage div{
+     margin-left: 8rem;
+     margin-top: 3.5rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .landingpage div p{
+     color: #00008b;
+     font-size: 1.5rem;
+     font-weight: 800;
+ }
+ .landingpage div h3{
+     color: #fffdd0;
+     font: 3rem;
+ }
+.fourboxes{
     display: flex;
+    text-align: center;
     
 }
-.gridsection div{
+.fourboxes div{
     flex: 1;
+    height: 25rem;
+    background-color: #001a21;
+    margin: 1rem 3rem;
+    background: #00008b;
+    color:#fffdd0;
+    padding: 13px;
+    border-radius: 13px;
 }
-.gridsection .gridphoto{
-    flex: 2;
-    background-color: black;
+.fourboxes div i{
+    font-size: 4rem;
+    margin-top: 0.7rem;
 }
-  
-  
-  
+.fourboxes div h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+.fourboxes div p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    line-height: 2rem;
+}
+
+.thetalk{
+    display: flex;
+    margin-top: 3rem;
+}
+.thetalk div{
+    flex: 1;
+    text-align: center;
+    color:#00008b;
+    padding: 3rem;
+   
+
+}
+.thetalk div h2{
+   font-size: 2rem;
+   margin-bottom: 10px;
+}
+.thetalk div p{
+    font-size: 1rem;
+    font-weight: 800;
+    line-height:2rem ;
+}
+
+
+
+/*----Footer------------*/
+footer{
+    background:#00008b;
+    padding: 50px 0;
+}
+.footer-container{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-social a{
+    
+    color: #fffdd0;
+    margin-right: 26px;
+    font-size: 30px;
+    text-decoration: .3s linear;
+}
+.footer-social a i{
+    }
+}
+.footer-social a:hover{
+   opacity: .3;
+   
+}
+.footer-social a h5:hover{
+    opacity: .3;
+
+}
+.right-col h1{
+    font-size: 26px;
+    color: #fffdd0;
+}
+.right-col p{
+    color:#fffdd0;
+}
+.left-col{
+    margin-top: 3rem;
+}
+
+.news-bx{
+    flex: 1;
+    padding: 10px 10px;
+    font-size: 16px;
+    color:#00008b;
+    background:#fffdd0;
+     border:none;
+    font-weight: 700;
+    border-radius: 30px;
+    min-width: ;
+}
+.news-bx:hover{
+   opacity: .7;
+}
+
+ .news-btn{
+    padding: 10px 40px;
+    font-size: 16px;
+    color: #00008b;
+    background:#fffdd0;
+     border:none;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+    
+}
+.news-btn:hover{
+    opacity: .7;
+}
+.copywrite{
+    background:#fffdd0;
+    color:#00008b;
+    text-align: center;
+    padding: 10px;
+}
+/* @media screen and (max-width:960px){
+    .footer-container{
+        max-width: 600px;
+    }
+    .right-col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .left-col{
+        width: 100%;
+        text-align: center;
+    }
+   
+}
+
+@media screen and (max-width:700px){
+    .news-btn{
+        margin:0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .news-bx{
+        margin:0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.copywrite{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+} */
+
+
+
+/*--Responsive ----*/
+@media(max-width: 1230px){
+    header,
+    header.sticky{
+        padding: 20px 50px;
+        z-index:1000;
+    }
+    .landingpage div{
+        margin-left: 8rem;
+        margin-top: 3.5rem;
+    }
+    .landingpage div{
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+    }
+    .landingpage{
+    padding-top:6rem;
+}
+}
+@media(max-width: 1130px){
+    .landingpage div{
+        margin-left: 0rem;
+    }
+}
+@media(max-width: 1130px){
+   .landingpage{
+       padding-left: 35rem;
+   }
+    }
+    @media(max-width: 1080px){
+        .landingpage{
+            padding-left: 34rem;
+        }
+    }
+    @media(max-width: 1050px){
+        .landingpage{
+            padding-left:32rem ;
+        }
+        .left-col{
+            margin-top: 1.5rem;
+        }
+    }
+    @media(max-width: 1015px){
+        .landingpage{
+            padding-left:31rem ;
+        }
+        .fourboxes{
+          flex-direction: column;
+        }
+    @media(max-width: 1000px){
+        
+    .landingpage{
+        padding-left: 33rem;
+    }
+
+    .landingpage div p{
+        font-size: 1.2rem;
+    }
+    .landingpage div h2{
+        font-size: 2rem;
+    }
+    .landingpage i{
+        margin-left: 1rem;
+    }
+    .menu{  
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #00008b;
+        transition: 0.5;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+        border-radius: 0.5rem;
+    }
+
+    .menu.active{
+        left: 0;
+    }
+    header ul li a{
+        color: #111;
+        font-size: 24px;
+        margin: 15px;
+    }
+    .toggle{
+        width: 60px;
+        height: 60px;
+        background:url(menu-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active{
+        background:url(close.png) no-repeat center center;
+        background-size: 30px;
+        cursor: pointer;
+        
+    }
+    header.sticky .toggle{
+         filter: invert(1);
+    }
+}
+    @media(max-width: 945px){
+        .landingpage{
+            padding-left: 31.3rem;
+        }
+    }
+    @media(max-width: 920px){
+        .landingpage{
+            padding-left: 30rem;
+        }
+    }
+    @media(max-width: 900px){
+        .landingpage{
+            padding-left: 28rem;
+        }
+    }
+    
+    @media(max-width: 865px){
+      .landingpage{
+          padding-left: 1rem;
+      }
+     
+      .landingpage div{
+          margin-left: 10rem;
+      }
+      .landingpage h2{
+          font-weight: 900;
+          font-size: 0.5rem;
+      }
+      .thetalk{
+          flex-direction: column;
+      }
+      .footer-container{
+          display: block;
+          text-align: center;
+      }
+      .left-col{
+          margin-bottom: 3rem;
+      }
+      .right-col{
+          padding-top: 2rem;
+      }
+
+    }
+    @media(max-width: 490px){
+        .news-btn{
+            margin-top: 1.5rem;
+        }
+    }
+    @media(max-width: 500px){
+        .landingpage{
+            margin-left: 0rem;
+        }
+     .landingpage i{
+         margin: 0.1rem;
+
+     }
+    }
+    @media(max-width: 390px)
+    {
+        .landingpage div a{
+            display: none;
+        }
+        .landingpage div p{
+            display: none;
+        }
+    }
+
+    /* section{ 
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .banner{
+        padding: 150px 50px 100px;
+        width: 100%;
+    }
+    .banner h2
+    .banner h3{
+        font-size:.5em;
+        width: 100%;
+    }
+    .btn{
+        
+        padding:10px 20px;
+        font-size: 16px;
+        display: inline;
+        justify-content: baseline;
+        justify-content: end;
+        top: 40px;
+        
+
+    }
+    .heading h2{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .contentBxh3{
+        font-size: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .w50{
+        margin-bottom: 20px;
+    }
+    .services .content .servicesBx{
+        margin: 10px;
+    }
+    .project .content .projectBx{
+        width: 100%;
+        padding: 10px;
+    }
+    .testimonial .content .testimonialBx{
+        max-width: calc(100% - 20px);
+        padding: 40px 20px;
+        margin: 10px;
+        background: #2196f3;
+    }
+    .testimonial .content .testimonialBx h3{
+        margin-top: 20px;
+    }
+    .contactInfo{
+        min-width: 40%;
+        margin: 20px 0;
+    }
+    .grid-container{
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-rows: minmax(auto, auto);
+     flex-direction: column;
+     max-width: 100%;
+     
+
+    }
+    .grid-container .grid-box{
+        grid-column: unset!important;
+        grid-row: unset!important;
+        padding: 40px 20px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    header,
+    header.sticky{
+        padding:20px 20px;
+    }
+    .banner{
+        padding: 150px 20px 100px;
+    }
+    section{
+        padding: 100px 20px;
+    }
+}

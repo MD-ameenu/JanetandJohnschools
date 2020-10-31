@@ -1,140 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home| J&J</title>
-        <meta name="description" content="">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/fe1cc69fb0.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="preheader">
-            <i class="fas fa-map-marker-alt"> <span>1, Estaport avenue, Soluyi-gbagada Lagos state</span></i>
-            <i class="fas fa-envelope"> <span>info@janetnjohschools.org</span></i>  
-        </div>
-        <header class="navbar">
-            <div>
-            <img src="./Logo12.png" alt=""><br>
-           <a href="./index.html" class="logo">Janet&John<br><span>College</span></a> 
-        </div>
-           <div class="toggle" onclick="toggleMenu();"></div>
-           <ul class="menu">
-               <li><a href="./index.html">Home</a></li>
-               <li><a href="./Aboutus.html">About us</a></li>
-               <li><a href="./courses.html">Courses</a></li>
-               <li><a href="./Galary.html">Gallery</a></li>
-               <li><a href="./contact.html">Contact</a></li>
-               <li><a href="./study.html">Study</a></li>
-           </ul>
-            <a class="apply" href="./apply.html" >Apply</a>
-           
-        </header>
-         <section class="landingpage"> 
-            <div>
-                <p>Welcome to our website</p>
-                <h3>BETTER EDUCATION FOR A BETTER FUTURE.</h3>
-                <p>Work hard,Pray hard and keep striaght</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- javascipt-bootsrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--local css  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawsome link -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-            </div>   
-            
-    
+    <title>J&J|Home</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> 
+        <a class="navbar-brand" href="#"><img src="./Logo12.png" width="80" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+            <span>J&J College</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link nav-option" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="#">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="#">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-option" href="#">Apply</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- landing page image -->
+
+     <section id="landing-page">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner">
+          <div class="landing-page carousel-item active one">
+            <div class="pre-welcome-msg">
+              <div><i class="fas fa-map-marker-alt"></i> <span>1, Estaport avenue, Soluyi-gbagada Lagos state</span></div>
+               <div><i class="fas fa-envelope"></i><span>info@janetnjohschools.org</span></div> 
+           </div>
+       
+           <div class="welcome-msg">
+             <p>Welcome to our website</p>
+             <h3>BETTER EDUCATION FOR A BETTER FUTURE.</h3>
+             <p>Work hard,Pray hard and keep striaght</p>
+             <button type="button" class="btn btn-light topbtn two">Contact Us</button>
+             <button type="button" class="btn btn-light topbtn one">Apply Now</button>
+           </div> 
+          </div>
+          <div class="carousel-item two landing-page">
+            <div class="pre-welcome-msg">
+              <div><i class="fas fa-map-marker-alt"></i> <span>1, Estaport avenue, Soluyi-gbagada Lagos state</span></div>
+               <div><i class="fas fa-envelope"></i><span>info@janetnjohschools.org</span></div> 
+           </div>
+       
+           <div class="welcome-msg">
+             <p>Welcome to our website</p>
+             <h3>BETTER EDUCATION FOR A BETTER FUTURE.</h3>
+             <p>Work hard,Pray hard and keep striaght</p>
+             <button type="button" class="btn btn-light topbtn two">Contact Us</button>
+             <button type="button" class="btn btn-light topbtn one">Apply Now</button>
+           </div>
+          </div>
+          <div class="carousel-item three landing-page">
+            <div class="pre-welcome-msg">
+              <div><i class="fas fa-map-marker-alt"></i> <span>1, Estaport avenue, Soluyi-gbagada Lagos state</span></div>
+               <div><i class="fas fa-envelope"></i><span>info@janetnjohschools.org</span></div> 
+           </div>
+       
+           <div class="welcome-msg">
+             <p>Welcome to our website</p>
+             <h3>BETTER EDUCATION FOR A BETTER FUTURE.</h3>
+             <p>Work hard,Pray hard and keep striaght</p>
+             <button type="button" class="btn btn-light topbtn two">Contact Us</button>
+             <button type="button" class="btn btn-light topbtn one">Apply Now</button>
+           </div>
+          </div>
+        </div>
+      </div> 
+
+      
     </section>
-        <div class="fourboxes">
-            <div class="boxone">
-            <i class="fas fa-graduation-cap"></i>
-            <h3>Certified teachers</h3>
-            <p>We have certified Teacher whith abilities to develop
-                relationship with students, and willing to listen to student when there is a
-            problem,with dedication to teaching motivating students to succed out of school </p> 
-            </div>
-            <div class="boxtwo">
-                <i class="fas fa-book-reader"></i>
-                <h3>Books&Libraries</h3>
-                <p>we have Libraries which serve as a social space for interaction and knowledge sharing amongst students
-                    with seatings for individual and collaborative work
-                </p>
-            </div>
-            <div class="boxthree">
-                <i class="fas fa-running"></i>
-                <h3>Sports</h3>
-                <p>We also do various Sporting Activities to Enable mental and phiysical development of the student
-                    and also help develop team spirit amongst them
-                </p>
-            </div>
-            
+    <!-- three box section -->
+    <section id="threebox">
+      <div  class="container">
+      <div class=" row">
+        <div class=" col-lg-4">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Certified teachers</h3>
+          <p>We have certified Teacher whith abilities to develop
+              relationship with students, and willing to listen to student when there is a
+          problem,with dedication to teaching motivating students to succed out of school </p> 
         </div>
-        <div class="talks">
-            <div class="thetalk">
-            <div class="aims">
-                <h2>AIMS AND OBJECTIVE</h2>
-                <p>The board of Janet&John College have a genuine intrest
-                    in trainig the intellectual,Moral and physical characteristics
-                    of children so they will be able to enjoy living as children,support themselves adequately
-                    when they become adults and ultimately contribute to nation building
-                    The children would have been prepared for tertiary education through developing
-                    communication skills developing creativity and critical thinking and finally eliminating
-                    learning difficulties arising from home environment and cultural Background
-                </p>
-            </div>
-            <div class="offer" >
-                <h2>WHAT WE DO</h2>
-                <p>We create an enabling environment where students will be made to imbibe the spirit of hardwork
-                    disciplin and Uprightness in accodance to our Motto 
-                    "Work hard,Pray hard and keep Stright" We also give an Understanding of citizenship in its Widest Sense
-                    through participation in school and Community Life.
-                    We develop potentials of Individuals on intellectual
-                    physical and spiritual planes, where differences are recognized and respected and where creativity is encouraged. 
-                </p>
-            </div>
-
-             
-
-            </div>
-
+        <div class="col-lg-4">
+          <i class="fas fa-book-reader"></i>
+          <h3>Books&Libraries</h3>
+          <p>we have Libraries which serve as a social space for interaction and knowledge sharing amongst students
+              with seatings for individual and collaborative work
+          </p>
         </div>
-           
-        
-        
-        
+        <div class="col-lg-4">
+          <i class="fas fa-running"></i>
+          <h3>Sports</h3>
+          <p>We also do various Sporting Activities to Enable mental and phiysical development of the student
+              and also help develop team spirit amongst them
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
 
-        
-     <!---------Footer-------->
+    <!-- About US intro -->
 
-   <footer>
-        <div class="footer-container">
-            <div class="left-col">
+<div id="abtusintro"  style="height: fit-content;">
+   <div class="overlay container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="img">
+            <img src="./img (1).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="abtcontent">
+            <h4>About us</h4>
+            <p>
+              We create an enabling environment where students will be made to imbibe the spirit of hardwork
+                        disciplin and Uprightness in accodance to our Motto 
+                        "Work hard,Pray hard and keep Stright" We also give an Understanding of citizenship in its Widest Sense
+                        through participation in school and Community Life.
+                        We develop potentials of Individuals on intellectual
+                        physical and spiritual planes, where differences are recognized and respected and where creativity is encouraged............
+            </p>
+            <button class="btn btn-dark readbtn">
+              Read more
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+<!-- Mansory -->
+
+<section id="Mansory" class="container-fluid" style="height:fit-content">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="formsection" style="background:#f8f9fa;"></div>
+    </div>
+    <div class="col-lg-6">
+     <div class="gridphoto">
+      <div class="item"><img src="./img (3).jpg" alt=""></div>
+      <div class="item"><img src="./grid.jpg" alt=""></div>
+      <div class="item"><img src="/abtusimg.jpg" alt=""></div>
+      <div class="item"><img src="./new.jpg" alt=""></div>
+     </div>
+    </div>
+  </div>
+   
+</section>
+
+<!-- carosel -->
+
+<section id="carosel">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="kk" style="background:green;">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Testimonials</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="kk" style="background: navy;" >
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Testimonials</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="kk" style="background:#6666ff">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Testimonials</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="left-col">
                 
-                 <div class="footer-social">
-                    <a href="./index.html" style="text-decoration: none; "><h5>JANET&JOHN</h5></a>
-                     
-                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
-                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <div class="footer-social">
+             <a href="./index.html" style="text-decoration: none; "><h5>JANET&JOHN</h5></a>
+              
+                    
                      <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
                      <a href="#"><i class="fab fa-whatsapp-square" aria-hidden="true"></i></a>
                      <a href="#"><i class="fas fa-envelope" aria-hidden="true"></i></a>
-
-                     
-                 </div>
-                 </div>
-                 <div class="right-col">
-                     <h1>Subscribe to our Newsletter</h1>
-                     <p></p>
-                      <form name="newsletter-form" method="POST" data-netlify="true">
-                         <input type="text" class="news-bx" placeholder="Enter Your Email" required>
-                         <input type="submit" class="news-btn" value="submit">
-                     </form>
-                 </div>
-        </div>
-
-   </footer>
-   <div class="copywrite">
-    <p>Janet&John &copy; 2020. All Right Reserved.</p>
-</div>
-    <script src="main.js"></script>
-   
+                     <a href="#"><i class="fab fa-twitter"></i></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+              
+          </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="right-col">
+          <h1>Subscribe to our Newsletter</h1>
+          <p></p>
+           <form name="newsletter-form" method="POST" data-netlify="true">
+              <input type="text" class="news-bx" placeholder="Enter Your Email" required>
+              <input type="submit" class="news-btn" value="submit">
+          </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
