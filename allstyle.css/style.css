@@ -92,7 +92,7 @@
 }
 /* abt us intro */
 #abtusintro{
-    background-image: url(./background.jpg);
+    background-image: url(../background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -190,16 +190,29 @@
      color: navy;
  }
  .formpg div input{
-     padding: 1.5rem;
+     padding: 1.2rem;
      margin: 10px;
  }
  #formmsg{
-     padding-bottom: 3rem;
+     padding-bottom: 2.6rem;
  }
  .form-btn{
      margin: auto;
      color: white;
      background: navy;
+ }
+ #location{
+     background: #f8f9fa;
+ }
+ #location h4{
+     color: navy;
+     text-align: center;
+     padding-top: 2%;
+ }
+ #location div div div p{
+    text-align: center;
+    margin-top: 4%;
+    line-height: 2rem;
  }
 /* carousel */
 #kk{
