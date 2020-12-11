@@ -297,7 +297,7 @@ footer{
         margin-left:15% !important;
         width: 100%;
     }
-
+   
 }
 @media screen and (max-width:650px){
 
@@ -316,6 +316,9 @@ footer{
   .gridphoto{
     margin-left: 0rem !important;
   }
+  .gridphotocontainer{
+    display: none;
+}
 }
 @media screen and (max-width:1118px){
     .news-btn{
@@ -327,4 +330,5 @@ footer{
     .gridphoto{
         margin-left: 0rem !important;
       }
+      
 }
