@@ -15,7 +15,7 @@
     height: 100vh; 
  }
   .one{
- background-image: url(../j&j.jpg);
+ background-image: url(../Images/j&j.jpg);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: center;
@@ -91,14 +91,12 @@
     font-size: 5rem;
 }
 /* abt us intro */
-#abtusintro{
-    background-image: url(../background.jpg);
+#abtusintro {
+    background-image: url(../Images/img\ \(6\).jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    /* padding-bottom 1rem; */
-    /* position: relative; */
 }
 .overlay{
     height: 100%;
@@ -141,12 +139,15 @@
     font-weight: bold;
 }
 /* grid section */
-.gridsection{
+.Mansorysec{
     display: flex;
-    
+    background-color: #6666ff;
+    padding: 2%;
 }
-.gridsection div{
-    flex: 1;
+.gridphotocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .gridphoto{
     display: grid;
@@ -156,10 +157,11 @@
     /* margin: 5% 0 7% 5%; */
     /* margin-left: 4rem; */
     background-color: #6666ff;
-    padding-left: 4rem;
+    margin-left: 3rem !important;
     /* padding-bottom: 5%; */
-    padding-bottom:2rem;
-    padding-top:2rem;
+    /* padding-bottom:2rem; */
+    /* padding-top:2rem; */
+    width: 90%;
 
 }
 .item:first-child{
@@ -216,7 +218,13 @@
  }
 /* carousel */
 #kk{
-    height: 50vh;
+    height: 80vh;
+}
+.caroselheading{
+      color: navy;
+     text-align: center;
+     margin-bottom: 0%;
+     background: #f8f9fa;
 }
 /* footer */
 footer{
@@ -275,6 +283,22 @@ footer{
 .news-btn:hover{
     opacity: .6;
 }
+.testimg{
+    max-width: 100%!important;
+    max-height: 75vh ;
+}
+@media screen and (max-width:996px){
+    .Mansorysec{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .gridphoto{
+        margin-left:15% !important;
+        width: 100%;
+    }
+
+}
 @media screen and (max-width:650px){
 
     .pre-welcome-msg{
@@ -283,12 +307,15 @@ footer{
     .welcome-msg {
         padding: 20% 0 0 5%;       
 }
-.gridphoto{
+/* .gridphoto{
     grid-template-columns:33% 26% 33%;
-}
+} */
 footer{
     text-align: center;
 }
+  .gridphoto{
+    margin-left: 0rem !important;
+  }
 }
 @media screen and (max-width:1118px){
     .news-btn{
@@ -297,4 +324,7 @@ footer{
     .pre-welcome-msg{
         padding-top: 10%
     }
+    .gridphoto{
+        margin-left: 0rem !important;
+      }
 }

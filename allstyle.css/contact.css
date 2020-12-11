@@ -19,15 +19,37 @@
 /* contact-us main */
 #contactusmain{
     background: #f8f9fa;
-    height: 100vh;
+    height: fit-content;
 }
 .form{
-    height: 97vh;
+    height: fit-content;
     background:  #6666ff;
     margin: 1rem;
 }
+.form h5{
+    margin: 1rem;
+    color: navy;
+}
 .form div{
-    width: 80%;
    margin-top: 5%;
 }
+.form div input{
+    width: 100%;
+    margin-bottom: 3%;
+   padding: 1.5%;
+   border-radius: 10px;
 
+}
+textarea{
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding:1.5%;
+}
+.submit{
+    color: white;
+    background-color: Navy;
+}
+.contactinfo h5{
+    margin: 1rem;
+    color: navy;
+}
