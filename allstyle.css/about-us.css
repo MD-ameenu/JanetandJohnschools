@@ -5,6 +5,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .abtusoverlay{
     height: 100%;
     width: 100%;
@@ -58,7 +59,7 @@
     margin: 1rem;
 }
 #kk{
-    height: 60vh;
+    height: 50vh;
 }
 #kk div{
     display: flex;
@@ -66,8 +67,8 @@
     align-items: center;
 }
 #kk div img{
-    max-width: 70%;
-    max-height: 100%;
+    max-width: 40%;
+    height:20rem;
 }
 .carousel-control-next-icon{
     background-color: black;
@@ -78,4 +79,8 @@
     background-color: black;
     padding: 20px;
     border-radius: 50%;
+}
+@media screen and (max-width:996px){
+
+
 }
