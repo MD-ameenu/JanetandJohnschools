@@ -193,6 +193,9 @@
               creed.</p>
       </div>
       <div class="col-lg-6">
+        <div id="map">
+         
+        </div>
 
       </div>
     </div>
@@ -286,6 +289,30 @@
 <div class="cr" style="background-color: black; color: white; text-align: center;">
   <p>Janet&John &copy; 2020. All Right Reserved </p>
 </div>
+<script>
+  initMap = (options) => {
+     var option = {
+         zoom:13,
+         center:{lat:6.5584,lng:3.3915}
+     }
 
+     map = new google.maps.Map(document.getElementById('map') , option)
+
+     marker = new google.maps.Marker({
+         position:{lat:6.56076,lng:3.38561},
+         map:map
+     })
+     infoWindow= new google.maps.InfoWindow({
+         content: `<h4> Janet and John Schools <h4/>`
+     })
+
+     marker.addListener('click',function(){
+         infoWindow.open(map, marker);
+     })
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS96JIHiEBbTj69W9wOIijo8YVDV9cpNI&callback=initMap"
+  type="text/javascript">
+</script>
 </body>
 </html>

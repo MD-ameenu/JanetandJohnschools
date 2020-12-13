@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #map{
+          height: 40rem;
+          width: 100%;  
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map">
+        
+    </div>
+
+
+<script>
+    initMap = (options) => {
+       var option = {
+           zoom:13,
+           center:{lat:6.5584,lng:3.3915}
+       }
+
+       map = new google.maps.Map(document.getElementById('map') , option)
+
+       marker = new google.maps.Marker({
+           position:{lat:6.56076,lng:3.38561},
+           map:map
+       })
+       infoWindow= new google.maps.InfoWindow({
+           content: `<h4> Janet and John Schools <h4/>`
+       })
+
+       marker.addListener('click',function(){
+           infoWindow.open(map, marker);
+       })
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS96JIHiEBbTj69W9wOIijo8YVDV9cpNI&callback=initMap"
+    type="text/javascript">
+</script>
+</body>
+</html>

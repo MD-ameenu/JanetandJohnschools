@@ -203,6 +203,7 @@
      color: white;
      background: navy;
  }
+ /* location */
  #location{
      background: #f8f9fa;
  }
@@ -216,9 +217,13 @@
     margin-top: 4%;
     line-height: 2rem;
  }
+ #map{
+     height: 100%;
+     width: 100%;
+ }
 /* carousel */
 #kk{
-    height: 80vh;
+    height: 50vh;
 }
 .caroselheading{
       color: navy;
@@ -297,6 +302,10 @@ footer{
         margin-left:15% !important;
         width: 100%;
     }
+    #map{
+        height: 50vh;
+        width: 100%;
+    }
    
 }
 @media screen and (max-width:650px){
@@ -307,6 +316,7 @@ footer{
     .welcome-msg {
         padding: 20% 0 0 5%;       
 }
+
 /* .gridphoto{
     grid-template-columns:33% 26% 33%;
 } */

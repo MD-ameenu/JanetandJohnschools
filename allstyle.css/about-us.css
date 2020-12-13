@@ -1,5 +1,5 @@
 .abtusimg{
-    background-image: url(../carousel.jpg);
+    background-image: url(../Images/img\ \(10\).jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -58,4 +58,24 @@
     margin: 1rem;
 }
 #kk{
-    height: 50vh;
+    height: 60vh;
+}
+#kk div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kk div img{
+    max-width: 70%;
+    max-height: 100%;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
