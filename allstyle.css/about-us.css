@@ -1,3 +1,9 @@
+body{
+    background-color: #f8f9fa;
+}
+#realabtus{
+    background-color: #f8f9fa;
+}
 .abtusimg{
     background-image: url(../Images/img\ \(10\).jpg);
     background-repeat: no-repeat;
@@ -19,23 +25,27 @@
 
 /* logo side */
 .logos{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.logos img{
+.logos div img{
+    margin-top: 5%;
+    width: 60%;
     height: 40%;
-    margin: 15% 0 0 20%;
-}
-.logos h5{
+    margin-left: 20%;
+} 
+ .logos h5{
  text-align: center;
  font-weight: bolder;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.logos h5 span{
-    color:  #6666ff;
+.college {
+    color: #6666ff ;
 }
 .abttext p{
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
     font-weight: bold;
     line-height: 1.6rem;
 }
@@ -53,22 +63,20 @@
     font-weight: bold;
     color: white;
 }
-#gallary h4{
+#gallary h2{
     text-align: center;
-    color: navy;
+    color: black;
     margin: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 #kk{
-    height: 50vh;
+    height: 60vh;
 }
-#kk div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#kk div img{
-    max-width: 40%;
-    height:20rem;
+#kk img {
+    width: 70%!important;
+    height: 100%;
+    margin: auto 15%;
 }
 .carousel-control-next-icon{
     background-color: black;
@@ -80,7 +88,11 @@
     padding: 20px;
     border-radius: 50%;
 }
-@media screen and (max-width:996px){
+@media screen and (max-width:1030px){
 
-
+    #kk img {
+        width: 100%!important;
+        height: 100%;
+        margin: 0;
+    }
 }
