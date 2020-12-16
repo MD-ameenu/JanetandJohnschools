@@ -1,0 +1,46 @@
+#apply{
+    /* background:  #f8f9fa; */
+}
+#apply div{
+    background: #f8f9fa;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#apply div h5{
+    color: #6666ff;
+}
+#apply h2{
+    text-align: center;
+    padding: 2%;
+    color: navy;
+}
+#apply h4{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+/* form */
+.form{
+    
+}
+form{
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+   
+}
+form h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: navy;
+}
+.formpg div input{
+    padding: 2rem;
+    margin: 10px;
+}
+#formmsg{
+    padding-bottom: 2.6rem;
+}
+.form-btn{
+    margin: auto;
+    color: white;
+    background: navy;
+}
