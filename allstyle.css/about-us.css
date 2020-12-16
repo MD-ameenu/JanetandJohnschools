@@ -3,6 +3,7 @@ body{
 }
 #realabtus{
     background-color: #f8f9fa;
+    
 }
 .abtusimg{
     background-image: url(../Images/img\ \(10\).jpg);
@@ -11,7 +12,12 @@ body{
     background-position: center;
     background-size: cover;
 }
-
+.abtuscont{
+    /* height: 50vh; */
+}
+.row{
+    margin-top: 5%;
+}
 .abtusoverlay{
     height: 100%;
     width: 100%;
@@ -46,6 +52,7 @@ body{
 .abttext p{
     text-align: center;
     margin-top: 5%;
+    margin-right: 5%;
     font-weight: bold;
     line-height: 1.6rem;
 }
