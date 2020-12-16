@@ -1,0 +1,16 @@
+#oops img{
+   width: 70%;
+   height: 100%;
+   object-fit:contain;
+}
+#oops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+h2{
+    text-align: center;
+    color: navy;
+    padding: 1%;
+}

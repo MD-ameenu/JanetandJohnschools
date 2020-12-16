@@ -1,9 +1,10 @@
 /* contact-us img */
 .contactusimg{
     background-image: url(../Images/Contactus.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     background-position: center;
+    /* object-fit: contain; */
 
 }
 .contactusoverlay{

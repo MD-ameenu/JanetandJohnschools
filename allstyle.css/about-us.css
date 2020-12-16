@@ -71,12 +71,14 @@ body{
   
 }
 #kk{
-    height: 60vh;
+    height: 80vh;
 }
 #kk img {
-    width: 70%!important;
+    width: 75%!important;
     height: 100%;
-    margin: auto 15%;
+    object-fit:contain;
+    /* object */
+    margin: auto 12%;
 }
 .carousel-control-next-icon{
     background-color: black;
